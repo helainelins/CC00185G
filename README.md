@@ -1,8 +1,10 @@
-## PIII Labs
-
-You can use the [editor on GitHub](https://github.com/helainelins/CC00185G/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Programação III Underwater
+<!--- You can use the [editor on GitHub](https://github.com/helainelins/CC00185G/edit/master/README.md) to maintain and preview #the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+-->
+
+Desenvolver soluções WEB coorporativa trabalhando nos alunos habilidades relevantes no âmbito prático em uma abordagem interdisciplinar e vivência bootcamp para resolver problemas reais. 
 
 ### Markdown
 
