@@ -1,7 +1,9 @@
-# <img src="https://drive.google.com/uc?export=view&id=1jvkcgKxYpJwV1BYsMonjYL4eFiJ3OQDR" alt="drawing" style="width:40px;height:25px;"/>  Programação III
-
-> Disciplina de Programação III | Licenciatura em Computação | Universidade de Pernambuco | Campus Garanhuns
-
+<h1 align="center"> 
+[Disciplina de Programação III]
+</h1>
+<h4 align="center"> 
+    Universidade de Pernambuco | Campus Garanhuns | Curso de Licenciatura em Computação
+</h4>
 <h4 align="center"> 
 	🚧 Programação JEE 🚀 em construção... 🚧
 </h4>
