@@ -1,39 +1,119 @@
-## Programação III Underwater
-<!--- You can use the [editor on GitHub](https://github.com/helainelins/CC00185G/edit/master/README.md) to maintain and preview #the content for your website in Markdown files.
+# <img src="https://drive.google.com/uc?export=view&id=1jvkcgKxYpJwV1BYsMonjYL4eFiJ3OQDR" alt="drawing" style="width:40px;height:25px;"/>  Programação III
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
--->
+> Disciplina de Programação III | Licenciatura em Computação | Universidade de Pernambuco | Campus Garanhuns
 
-Desenvolver soluções WEB trabalhando nos alunos habilidades relevantes no âmbito prático em uma abordagem interdisciplinar e vivência bootcamp para resolver problemas reais. 
+<h4 align="center"> 
+	🚧 Programação JEE 🚀 em construção... 🚧
+</h4>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tgmarinho/nlw1?color=%2304D361">
 
-### Markdown
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/nlw1">
+	
+  
+  <a href="https://github.com/tgmarinho/nlw1/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/nlw1">
+  </a>
+</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Estrutura
 
-```markdown
-Syntax highlighted code block
+- [Sobre](#sobre)
+- [Requisitos](#requisitos)
+- [Configuração de Ambiente](#configuracao)
+- [Referências](#referencias)
+- [Licença](#license)
+- [Sobre](#sobre)
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
+## Sobre
 
-1. Numbered
-2. List
+Vivenciar a experiência de construir soluções Java para WEB utilizando tecnologias e frameworks atuais, através de soluções integradas utilizando arquitetura MVC.
 
-**Bold** and _Italic_ and `Code` text
+## Requisitos
 
-[Link](url) and ![Image](src)
-```
+- Git
+- Java Virtual Machine 11
+- Maven 3.6.3
+- Eclipse IDE for Enterprise Java Developers
+- Spring Tool Suite 4 (STS)
+- Postgre SQL
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+---
 
-### Jekyll Themes
+## Configuração de Ambiente
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/helainelins/CC00185G/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### SDKMan
 
-### Support or Contact
+Existe um [BUG](https://github.com/sdkman/sdkman-cli/issues/593) no SDKMAN no Windows que não efetua corretamente a troca de versões dos sdks na pasta current. Para corrigi-lo é necessário fazer uma alteração no arquivo *.bashrc* que existe na sua pasta de usuário.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. Abra o arquivo ´.bashrc´
+2. Acrescente uma linha em branco no início do arquivo
+3. Cole esta instrução ´export MSYS=winsymlinks:lnk´ na linha criada.
+4. Salve o arquivo
+
+### Máquina Virtual Java
+
+O Eclipse 4.7, que é compatível com o Spring Tool Suite, precisa da JVM na versão 11
+
+1. Abra o ConEmu(MinGW) e instale o sdk utilizando o seguinte comando ´sdk install java 11.0.8.j9-adpt´
+2. Torne a versão instalada como padrão ´sdk use java 11.0.8.j9-adpt´
+3. Execute ´java -version´ para ter certeza que o jdk foi atualizado 
+
+- Para que os demais passos funcionem é necessário que você tenha criado a variável de ambiente %JAVA_HOME% no exercício anterior. Ela deve apontar para o diretório ´c:\Users\SEU_USUARIO\.sdkman\candidates\java\current$´
+- Para se certificar que a variável está criada execute ´echo $JAVA_HOME$´ no console e verifique a saída impressa.
+
+### Maven
+
+1. Execute ´mvn -version´ no terminal de comando para ter certeza que o Maven foi instalado corretamente
+
+- Para que o comando funcione é necessário que você tenha criado a variável de ambiente %M2_HOME% no exercício anterior. Ela deve apontar para o diretório ´c:\Users\SEU_USUARIO\.sdkman\candidates\maven\current$´
+- Para se certificar que a variável está criada execute ´echo $M2_HOME$´ no console e verifique a saída impressa.
+
+### GitHub Classroom
+
+1. Faça o aceite do convide enviado na página da disciplina.
+2. Aceite o assignment
+3. Aguarde o GitHub criar o seu repositório
+4. Clique na URL do repositório para acessá-lo
+5. Clique no botão "Code", copie a URL do repositório
+6. Faça o clone da branch no seu workspace utilizando o link copiado
+
+- Lembre-se de ter configurado as variáveis de usuário no seu arquivo global do git
+
+  - ´git config --global user.email "you@example.com"´
+  - ´git config --global user.name "Your Name"
+
+### Eclipse e Spring Tool Suite (STS)
+
+1. O STS precisa do Eclipse na versão [4.7](https://www.eclipse.org/downloads/packages/release/2020-09/r/eclipse-ide-enterprise-java-developers)
+2. Baixe, descompacte
+3. Execute o Eclipse no workspace onde realizou o clone do projeto
+
+### Spring Tool Suite
+
+1. No Eclipse acesse o menu ´Help > Eclipse Marketplace´ e procure por ´Spring Tools 4´
+2. Clique em ´install´ e execute os passos de instalação
+
+## Instruções
+
+### Criação do Projeto
+
+### Criação do Servlet
+
+---
+
+## Licença
+
+MIT License
+
+Copyright (c) [2017] [James Q Quick]
+
+---
+
+## Autor
+
+- Twitter - [@hbarreiros_](https://twitter.com/hbarreiros_)
+
+[Voltar](#estrutura)
