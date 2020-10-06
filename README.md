@@ -54,30 +54,15 @@ Existe um [BUG](https://github.com/sdkman/sdkman-cli/issues/593) no SDKMAN no Wi
 
 ### Máquina Virtual Java
 
-O Eclipse 4.7, que é compatível com o Spring Tool Suite, precisa da JVM na versão 11
+O Eclipse 4.7, que é compatível com o Spring Tool Suite, precisa da JVM na versão 11. Sendo assim vamos precisar alterar a versão que instalamos na atividade anterior. Para isso basta seguir os seguintes passos
 
 1. Abra o ConEmu(MinGW) e instale o sdk utilizando o seguinte comando ´sdk install java 11.0.8.j9-adpt´
-2. Torne a versão instalada como padrão ´sdk use java 11.0.8.j9-adpt´
-3. Execute ´java -version´ para ter certeza que o jdk foi atualizado 
-
-- Para que os demais passos funcionem é necessário que você tenha criado a variável de ambiente %JAVA_HOME% no exercício anterior. Ela deve apontar para o diretório ´c:\Users\SEU_USUARIO\.sdkman\candidates\java\current$´
-- Para se certificar que a variável está criada execute ´echo $JAVA_HOME$´ no console e verifique a saída impressa.
-
-### Maven
-
-1. Execute ´mvn -version´ no terminal de comando para ter certeza que o Maven foi instalado corretamente
-
-- Para que o comando funcione é necessário que você tenha criado a variável de ambiente %M2_HOME% no exercício anterior. Ela deve apontar para o diretório ´c:\Users\SEU_USUARIO\.sdkman\candidates\maven\current$´
-- Para se certificar que a variável está criada execute ´echo $M2_HOME$´ no console e verifique a saída impressa.
+2. Execute ´java -version´ para ter certeza que o jdk foi atualizado 
 
 ### GitHub Classroom
 
-1. Faça o aceite do convide enviado na página da disciplina.
-2. Aceite o assignment
-3. Aguarde o GitHub criar o seu repositório
-4. Clique na URL do repositório para acessá-lo
-5. Clique no botão "Code", copie a URL do repositório
-6. Faça o clone da branch no seu workspace utilizando o link copiado
+1. Clique no botão "Code", copie a URL do repositório
+2. Faça o clone da branch no seu workspace utilizando o link copiado
 
 - Lembre-se de ter configurado as variáveis de usuário no seu arquivo global do git
 
