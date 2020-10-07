@@ -43,7 +43,7 @@ Vivenciar a experiência de construir soluções Java para WEB utilizando tecnol
 
 ## Configuração de Ambiente
 
-### SDKMan
+### Correção de BUG do SDKMan
 
 Existe um [BUG](https://github.com/sdkman/sdkman-cli/issues/593) no SDKMAN no Windows que não efetua corretamente a troca de versões dos sdks na pasta current. Para corrigi-lo é necessário fazer uma alteração no arquivo *.bashrc* que existe na sua pasta de usuário.
 
@@ -52,12 +52,12 @@ Existe um [BUG](https://github.com/sdkman/sdkman-cli/issues/593) no SDKMAN no Wi
 3. Cole esta instrução ´export MSYS=winsymlinks:lnk´ na linha criada.
 4. Salve o arquivo
 
-### Máquina Virtual Java
+### Atualização da Máquina Virtual Java
 
 O Eclipse 4.7, que é compatível com o Spring Tool Suite, precisa da JVM na versão 11. Sendo assim vamos precisar alterar a versão que instalamos na atividade anterior. Para isso basta seguir os seguintes passos
 
 1. Abra o ConEmu(MinGW) e instale o sdk utilizando o seguinte comando ´sdk install java 11.0.8.j9-adpt´
-2. Execute ´java -version´ para ter certeza que o jdk foi atualizado 
+2. Execute ´java -version´ para ter certeza que o jdk foi atualizado
 
 ### GitHub Classroom
 
