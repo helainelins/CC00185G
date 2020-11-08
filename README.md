@@ -77,12 +77,23 @@ O Eclipse 4.7, que é compatível com o Spring Tool Suite, precisa da JVM na ver
 
 ### Spring Tool Suite
 
-1. No Eclipse acesse o menu ´Help > Eclipse Marketplace´ e procure por ´Spring Tools 4´
+1. Como Eclipse aberto acesse o menu ´Help > Eclipse Marketplace´ e procure por ´Spring Tools 4´
 2. Clique em ´install´ e execute os passos de instalação
-
-## Instruções
+3. Após a instalação o eclipse irá pedir para ser reiniciado
 
 ### Criação do Projeto
+
+1. Com o eclipse aberto abra a caixa de diálogo de criação de projetos clicando no menu "File -> New -> Other"
+2. Digite _spring_, selecione a opção ´Spring Starter Project´ e clique em _Next_
+3. Agora você precisará preencher as informações de configuração de projeto
+4. Comece preenchendo a informacao "Name" com o nome do seu projeto.
+5. Verifique se o caminho apresentado no campo _Location_ corresponde a sua pasta de workspace onde realizamos o checkout das instruções do classroom. Se sim pode deixar a configuração como está, se não abra o eclipse novamente apontando para o workspace correto para prosseguir com a criação do projeto.
+6. Escolha o empactoamento com a opção _War_
+7. Preencha a informação de Group com a informação ´br.upe.seuloginupe´ (ex: br.upe.helainelins). Lembre-se de nao utilizar caracteres especiais
+8. Preencha o campo Artifact com o valor ´servlet´
+9. Preencha o campo descrição à seu critério
+10. Preencha o package com o valor ´br.upe.seuloginupe.servlet´ (ex: br.upe.helainelins.servlet). Lembre-se novamente de nao utilizar caracteres especiais
+
 
 ### Criação do Servlet
 
